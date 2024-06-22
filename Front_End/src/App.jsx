@@ -1,19 +1,17 @@
 // import { useState } from 'react'
+import { Outlet, useLocation } from 'react-router-dom';
+import Header from './components/Header/Header';
 import './App.css';
-import {
-  getUserById,
-  getUserActivity,
-  getUserAverageSessions,
-  getUserPerformance,
-} from './service/api';
+import ButtonsTest from './components/ButtonsTest/ButtonsTest';
+
 function App() {
-  getUserById(18);
-  getUserActivity(12);
-  getUserAverageSessions(18);
-  getUserPerformance(12);
+  const location = useLocation();
+
   return (
     <>
-      <h1>Hello world</h1>
+      <Header />
+      <Outlet />
+      {location.pathname == '/' && <ButtonsTest />}
     </>
   );
 }

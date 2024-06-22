@@ -1,0 +1,15 @@
+.dashboard {
+  width: 80%;
+  margin: 150px auto 0;
+  padding: 0 50px;
+  h1 {
+    font-weight: 500;
+    font-size: 48px;
+    span {
+      color: var(--red);
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}

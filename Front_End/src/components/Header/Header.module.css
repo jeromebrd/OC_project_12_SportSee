@@ -1,0 +1,30 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--black);
+  padding: 18px 28px;
+  z-index: 20;
+  box-shadow: 0px 4px 4px 0px #00000040;
+
+  nav {
+    display: flex;
+    width: 100%;
+  }
+  ul {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    li {
+      list-style: none;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+}
