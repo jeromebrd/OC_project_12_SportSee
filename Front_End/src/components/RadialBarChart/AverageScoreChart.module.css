@@ -1,0 +1,25 @@
+.average_score_ctn {
+  background-color: var(--bg-white);
+  border-radius: 10px;
+  position: relative;
+  h3 {
+    position: absolute;
+    text-align: center;
+    top: 24px;
+    left: 30px;
+    color: #20253a;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .percentage_text {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #282d30;
+  }
+  .objective_text {
+    font-weight: 500;
+    color: #74798c;
+  }
+}

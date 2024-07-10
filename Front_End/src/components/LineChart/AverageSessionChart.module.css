@@ -1,0 +1,26 @@
+.custom_tooltip {
+  background-color: #00000044;
+  color: white;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.average_ctn {
+  background-color: var(--red-light);
+  border-radius: 10px;
+  position: relative;
+  h2 {
+    color: #ffffff;
+    opacity: 50%;
+    text-align: left;
+    padding: 29px 0 0 34px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 148px;
+    position: absolute;
+  }
+}

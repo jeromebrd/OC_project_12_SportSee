@@ -1,0 +1,29 @@
+.main {
+  height: 100vh;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 150px;
+  }
+  div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    a {
+      color: var(--red);
+      padding: 18px 15px;
+      border: 1px solid var(--red);
+      border-radius: 10px;
+      font-weight: 500;
+    }
+  }
+}
+
+.color_red {
+  color: var(--red);
+}

@@ -5,7 +5,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --black: #020203;
+  --grey-dark: #282d30;
   --red: #ff0101;
+  --red-dark: #e60000;
+  --red-light: #ff0000;
+  --bg-white: #fbfbfb;
 }
 * {
   box-sizing: border-box;

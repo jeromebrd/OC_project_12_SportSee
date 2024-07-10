@@ -1,7 +1,8 @@
 .dashboard {
-  width: 80%;
+  width: 100%;
+  max-width: 80%;
   margin: 150px auto 0;
-  padding: 0 50px;
+  padding: 20px;
   h1 {
     font-weight: 500;
     font-size: 48px;
@@ -11,5 +12,47 @@
     p {
       font-size: 18px;
     }
+  }
+}
+
+.barChart_ctn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 10px;
+  min-height: 320px;
+  background: var(--bg-white);
+  grid-column: 1 / 10;
+  border-radius: 10px;
+}
+.squaresGraph_ctn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  min-height: 320px;
+  grid-column: 1 / 10;
+}
+.cardInfo_ctn {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  grid-column: 10/13;
+  grid-row: 3/5;
+}
+.grid_ctn {
+  display: grid;
+  justify-content: start;
+  align-items: start;
+  gap: 39px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  h1 {
+    grid-column: 1 / 12;
+  }
+  p {
+    grid-column: 1 / 12;
   }
 }
