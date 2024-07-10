@@ -20,6 +20,11 @@
       border: 1px solid var(--red);
       border-radius: 10px;
       font-weight: 500;
+      transition: transform 0.1s ease;
+      transform: scale(1);
+    }
+    a:hover {
+      transform: scale(1.02);
     }
   }
 }
