@@ -17,7 +17,7 @@ const CustomTooltip = ({ active, payload, coordinate, chartWidth }) => {
       <div
         className={styles.custom_tooltip}
         style={{
-          left: `${Math.min(coordinate.x, chartWidth - 10)}px`,
+          left: `${Math.min(coordinate.x, chartWidth - 20)}px`,
           width: `${
             tooltipWidth === 0 ? tooltipWidth + 50 : tooltipWidth + 20
           }px`,

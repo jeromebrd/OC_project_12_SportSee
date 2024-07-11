@@ -16,10 +16,10 @@
     font-size: 26px;
     line-height: 26px;
     text-align: center;
-    color: #282d30;
+    fill: #282d30;
   }
   .objective_text {
     font-weight: 500;
-    color: #74798c;
+    fill: #74798c;
   }
 }

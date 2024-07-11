@@ -19,6 +19,7 @@
   background-color: var(--red-light);
   border-radius: 10px;
   position: relative;
+  overflow: hidden;
 }
 
 .average_ctn h2 {

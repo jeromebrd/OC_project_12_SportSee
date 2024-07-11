@@ -61,7 +61,6 @@ const Dashboard = () => {
   }
 
   if (error && error.code === 404) {
-    console.log(error);
     return <Error404 />;
   }
 
